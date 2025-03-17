@@ -34,8 +34,8 @@ const About = () => {
 				<AnimatedTitle title="Amph<b>o</b>reus <br /> the eter<b>n</b>al l<b>a</b>nd" containerClass="mt-5 !text-black text-center" />
 
 				<div className="about-subtext">
-					<p>Amphoreus, also known as The Eternal Land</p>
-					<p className="text-gray-500">Is an isolated world governed by the Chrysos Heirs, and was once in a state of chaos until the Titans emerged from the remnants of the gods. The &quot;Eternal Holy City&quot; of Okhema, serves as the last refuge for its people and their allies.</p>
+					<p className='text-xl font-bold'>Amphoreus, also known as The Eternal Land</p>
+					<p className="text-gray-700">Is an isolated world governed by the Chrysos Heirs, and was once in a state of chaos until the Titans emerged from the remnants of the gods. The &quot;Eternal Holy City&quot; of Okhema, serves as the last refuge for its people and their allies.</p>
 				</div>
 			</div>
 

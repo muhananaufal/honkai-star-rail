@@ -6,31 +6,19 @@
 
 html {
 	scroll-behavior: smooth;
-}
-
-/* Hide scrollbar but allow scrolling */
-html,
-body {
 	overflow: hidden;
-}
-
-/* OR Hide scrollbar while keeping scrolling functional */
-html {
 	overflow-y: scroll;
+	scrollbar-width: none; /* For Firefox */
+	-ms-overflow-style: none; /* For Internet Explorer and Edge */
 }
 
 html::-webkit-scrollbar {
 	display: none; /* For Chrome, Safari */
 }
 
-html {
-	scrollbar-width: none; /* For Firefox */
-	-ms-overflow-style: none; /* For Internet Explorer and Edge */
-}
-
 body {
+	overflow: hidden;
 	width: 100dvw;
-	overflow-x: hidden;
 	background-color: #dfdff0;
 	font-family: 'General Sans', sans-serif;
 }

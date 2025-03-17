@@ -87,7 +87,7 @@ const NavBar = () => {
 							))}
 						</div>
 
-						<button onClick={toggleAudioIndicator} className="ml-10 flex items-center space-x-0.5">
+						<button onClick={toggleAudioIndicator} className="ml-10 flex items-center space-x-0.5" aria-label="toggle audio">
 							<audio ref={audioElementRef} className="hidden" src="/audio/loop.mp3" loop preload="auto" />
 							{[1, 2, 3, 4].map((bar) => (
 								<div

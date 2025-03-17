@@ -74,8 +74,8 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
 								background: `radial-gradient(100px circle at ${cursorPosition.x}px ${cursorPosition.y}px, #656fe288, #00000026)`,
 							}}
 						/>
-						<TiLocationArrow className="relative z-20" />
-						<p className="relative z-20">coming soon</p>
+						<TiLocationArrow className="relative z-20 text-white" />
+						<p className="relative z-20 text-white">coming soon</p>
 					</div>
 				)}
 			</div>
@@ -84,15 +84,15 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
 };
 
 const Features = () => (
-	<section className="bg-black pb-52">
+	<section className="bg-black pb-52 text-blue-50">
 		<div className="container mx-auto px-3 md:px-10">
 			<div className="px-5 py-32">
-				<p className="font-circular-web text-lg text-blue-50">Titans</p>
-				<div className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-					The Titans are a group of divine beings born from Coreflames sent down by the gods of Amphoreus. Each Titan has an associated Coreflame, and whoever conquers a Coreflame&apos;s Trial can inherit the Titan&apos;s divinity and become a
-					demigod.
-					<br/>
-					<br/>
+				<p className="font-circular-web text-2xl font-bold text-blue-100">Titans</p>
+				<div className="max-w-md font-circular-web text-lg text-blue-50">
+					The Titans are a group of divine beings born from Coreflames sent down by the gods of Amphoreus. Each Titan has an associated Coreflame, and whoever conquers a Coreflame&apos;s Trial can inherit the Titan&apos;s divinity and
+					become a demigod.
+					<br />
+					<br />
 					The Titans were responsible for the creation of the first heaven, earth, mortals, and the Light Calendar. At this point, all the Titans have fallen, and the Chrysos Heirs are prophesied to take up the Coreflames.
 				</div>
 			</div>
